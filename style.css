@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    background: url(/images/pattern-background-desktop.svg);
+    background-position: 0rem -5rem ;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+
+    width: 30%;
+    margin: 5rem auto;
+}
+
+section img {
+    height: 25%;
+    margin-bottom: 2rem ;
+    
+    border-radius: 1rem 1rem 0 0;
+}
+
+section .hero{
+    width: 75%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    color:  hsl(223, 47%, 23%)
+
+}
+
+.hero h1{
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    font-size: 16px;
+    opacity: 50%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color:  hsl(225, 100%, 98%);
+    
+    width: 80%;
+    margin:2rem auto;
+    padding: 0  1rem;    
+
+    border-radius: 1rem;
+
+    color:  hsl(223, 47%, 23%)
+}
+
+.price img{
+    /* display: inline-block; */
+    margin-top: 1.5rem;
+} 
+
+.price-tag{
+    margin-right: 2rem;
+}
+
+.price-tag p{
+    opacity: 50%;
+}
+
+.price a{
+    color:  hsl(245, 75%, 52%)
+    ;
+}
+.price a:hover{
+    opacity: 50%;
+}
+
+
+button{
+    border: none;
+
+    width: 80%;
+    height: 2.5rem;
+    margin: 1rem auto;
+}
+
+#pay {
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 1rem;
+}
+
+#pay:hover{
+    opacity: 50%;
+}
+
+#cancel{
+    opacity: 20%;
+    background-color: white;
+}
+#cancel:hover{
+    opacity: 100%;
+   color:hsl(223, 47%, 23%);
+}
+
+@media(max-width:400px){
+    section{
+        width: 90% ;
+    }
+    .price{
+        width: 90%;
+    }
+    button{
+        width: 90%;
+    }
+}
+
