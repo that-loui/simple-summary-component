@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: url(/images/pattern-background-desktop.svg);
+  background: url(./images/pattern-background-desktop.svg);
   background-position: 0rem -5rem;
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
@@ -126,7 +126,7 @@ button {
 
 @media (max-width: 400px) {
   body {
-    background: url(/images/pattern-background-mobile.svg);
+    background: url(./images/pattern-background-mobile.svg);
     background-position: 0rem -5rem;
     background-repeat: no-repeat;
   }
