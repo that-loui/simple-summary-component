@@ -131,6 +131,10 @@ button{
 }
 
 @media(max-width:400px){
+
+    body{
+        background: url(/images/pattern-background-mobile.svg);
+    }
     section{
         width: 90% ;
     }
