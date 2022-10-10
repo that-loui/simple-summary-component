@@ -124,12 +124,26 @@ button {
   color: hsl(223, 47%, 23%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   body {
     background: url(./images/pattern-background-mobile.svg);
-    background-position: 0rem -5rem;
+    background-color: hsl(225, 100%, 94%);
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: 100% 50%;
   }
+  section {
+    width: 90%;
+  }
+  .price {
+    width: 90%;
+  }
+  button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1020px){
   section {
     width: 90%;
   }
